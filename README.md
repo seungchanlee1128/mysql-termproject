@@ -1,5 +1,5 @@
 # K-zoosik Portfolio (2025 데이터베이스 Term Project)
-<pre> ```mermaid erDiagram ... (내용) ``` </pre>
+
 [설계서 Notion 링크](https://nano5.notion.site/Spring-Data-JPA-MySQL-1abdaf211d42817581b9e3dd2ed9d21f?pvs=4)
 
 ## 프로젝트 개요
@@ -17,7 +17,7 @@ K-zoosik Portfolio는 국내 주식 투자자들이 자신만의 포트폴리오
 - REST API (JSON)
 
 ## 데이터베이스 ERD
-
+<pre> ```mermaid erDiagram ... (내용) ``` </pre>
 app_user {
     INT user_id PK "사용자 ID"
     VARCHAR username "이름"
