@@ -18,6 +18,10 @@ K-zoosik Portfolio는 국내 주식 투자자들이 자신만의 포트폴리오
 
 ## 데이터베이스 ERD
 ```mermaid
+erDiagram
+app_user ||--o{ portfolio : "소유"
+portfolio ||--o{ portfolio_stock : "구성"
+stock ||--o{ portfolio_stock : "포함"
 
 app_user {
     INT user_id PK "사용자 ID"
